@@ -1,6 +1,8 @@
 export default class KeepSecret {
 
-  constructor(peter) {
-    console.log(squeal);
+  constructor(mySecret) {
+    this.squeal = function () {
+      return mySecret;
+    };
   }
 }
