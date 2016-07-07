@@ -15,7 +15,7 @@
     'Create a class named \'Key\' that takes no arguments in its constructor');
 
     assert.ok(lock instanceof Lock,
-    'Create a class named \'Lock\' that takes two arguments in its, a secret and a \'Key\' object');
+    'Create a class named \'Lock\' that takes two arguments in its , a secret and a \'Key\' object');
 
     assert.notEqual(lock.unlock(wrongKey), sensitive,
     'If the wrong key is passed to the \'unlock\' function for a \'Lock\' ' +

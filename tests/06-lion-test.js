@@ -3,6 +3,8 @@
 
   /* global require */
   const Lion = require('lion');
+  const Cat = require('cat');
+
 
   test('Really BIG cats', (assert) => {
     assert.ok(new Lion() instanceof Cat,
