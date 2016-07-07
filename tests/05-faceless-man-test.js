@@ -3,6 +3,8 @@
 
   /* global require */
   const FacelessMan = require('faceless-man');
+  const aMan = new FacelessMan();
+    aMan.name = "Jaqen H'ghar";
 
   test('The order of the Faceless Men', (assert) => {
     const girl = new FacelessMan('The Waif');
