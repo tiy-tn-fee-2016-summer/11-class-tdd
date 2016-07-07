@@ -1,6 +1,8 @@
-export default class Dog (){
+export default class Dog{
 
-  says: 'life is ruff';
+  constructor() {
+    this.says = 'life is ruff';
+  }
 
 
 }
