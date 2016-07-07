@@ -1,9 +1,7 @@
 export default class Cat {
 
-  const garfield = new Cat();
-
-  cat.growl = 'meow';
+  growl() {
+    return 'meow';
   }
+  //
 }
-
-// const garfield = new Cat();
