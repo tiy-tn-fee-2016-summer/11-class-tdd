@@ -21,7 +21,6 @@
          Currently stored to: ${prop}`);
       }
     }
-
     assert.equal(dontTellNobody.squeal(), mySecret,
     `The class instance 'KeepSecret' should be able to return
      the secret phrase passed in the constructor when 'squeal' is called`);

@@ -5,6 +5,7 @@
   const Lion = require('lion');
   const Cat = require('cat');
 
+
   test('Really BIG cats', (assert) => {
     assert.ok(new Lion() instanceof Cat,
     'Create a new class called \'Lion\' that extends from the \'Cat\' class');
