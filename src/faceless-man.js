@@ -1,5 +1,6 @@
 export default class FacelessMan {
 
-// aMan.name = 'Jaqen H ghar'
+constructor(name) {
+  this.name = 'The Waif'
+  }
 }
-  // const aMan = new FacelessMan();
