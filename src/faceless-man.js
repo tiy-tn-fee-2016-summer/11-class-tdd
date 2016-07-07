@@ -1,6 +1,6 @@
-export default class Faceless-man{
+export default class FacelessMan{
 
-facelessMan{
-
+constructor(name){
+this.name='The Waif';
 }
 }
