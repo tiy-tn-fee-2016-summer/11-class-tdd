@@ -3,6 +3,7 @@
 
   /* global require */
   const Foo = require('foo');
+  const bar = new Foo;
 
   test('There is a Foo class and an instance called bar', (assert) => {
     // Create an instance of Foo and set it to the variable "bar"

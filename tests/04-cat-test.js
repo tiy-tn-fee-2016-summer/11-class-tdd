@@ -3,6 +3,9 @@
 
   /* global require */
   const Cat = require('cat');
+  const bar = new Cat;
+  const garfield = new Cat();
+
 
   test('Cats are a little bit different', (assert) => {
     // Create an instance of Cat and set it to the variable "bar"
