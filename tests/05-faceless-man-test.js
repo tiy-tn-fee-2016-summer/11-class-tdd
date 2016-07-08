@@ -3,9 +3,12 @@
 
   /* global require */
   const FacelessMan = require('faceless-man');
+  const aMan = new FacelessMan;
+  aMan.name = 'Jaqen H\'ghar';
 
   test('The order of the Faceless Men', (assert) => {
     const girl = new FacelessMan('The Waif');
+
 
     // Create a new instance of FacelessMan with the name Jaqen H\'ghar
     // set it to the variable "aMan"
