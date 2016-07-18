@@ -9,6 +9,7 @@
 
     // Create a new instance of FacelessMan with the name Jaqen H\'ghar
     // set it to the variable "aMan"
+    const aMan = new FacelessMan('Jaqen H\'ghar');
 
     assert.ok(aMan instanceof FacelessMan,
     'Create a class called \'FacelessMan\' and a new instance of FacelessMan called \'aMan\'');
